@@ -1,0 +1,70 @@
+.md-app {
+  min-height: 350px;
+ .header-nav {
+    background: white;
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 16px;
+        margin-left:8px;
+        color: #b7b7b7;
+      }
+    }
+
+    .flex {
+      md-field {
+        max-width: 150px;
+      }
+      .avatar-name {
+        margin-left:4px;
+        margin-right: 4px;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+.md-drawer {
+  width: 230px;
+  max-width: calc(100vw - 125px);
+}
+
+ @media (max-width: 700px) {
+  .md-drawer {
+    position: absolute !important;
+  }
+}
+
+.page {
+  min-height: calc(100vh - 64px);
+}
+
+.md-layout-item {
+  flex-grow: 0;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.flex  {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: none;
+}
+
+.md-list-item .md-icon {
+  margin-right: 32px;
+}

@@ -1,0 +1,52 @@
+@import '~vue-material/dist/theme/engine'; // Import the theme engine
+@include md-register-theme( 'default', ( primary: #424240, secondary: md-get-palette-color(red, A200), // The primary color of your application
+accent: md-get-palette-color(red, A200) // The accent or secondary color
+));
+@import '~vue-material/dist/theme/all'; // Apply the theme
+@import 'assets/scss/md/global.scss';
+@import 'assets/scss/md/sidebar.scss';
+@import 'assets/scss/md/dashboard.scss';
+@import 'assets/scss/md/header.scss';
+@import 'assets/scss/md/payment.scss';
+@import 'assets/scss/md/rent.scss';
+@import 'assets/scss/md/leases.scss';
+@import 'assets/scss/md/leaseEdit.scss';
+@import 'assets/scss/md/invoice.scss';
+@import 'assets/scss/md/payer.scss';
+@import 'assets/scss/md/report.scss';
+@import 'assets/scss/md/transaction.scss';
+@import 'assets/scss/md/deletedTransaction.scss';
+@import 'assets/scss/md/upload.scss';
+a {
+    text-decoration: none;
+}
+
+.md-list-item i {
+    margin-right: 24px !important;
+    border-width: 0 1px 0 0;
+}
+
+.md-border {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #e4e2e2;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(148, 147, 147);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(119, 118, 118);
+}

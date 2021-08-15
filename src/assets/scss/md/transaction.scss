@@ -1,0 +1,233 @@
+.transaction {
+    position: relative;
+    .btn-orange {
+        color: white;
+        background-color: #F77D1A;
+        text-transform: initial;
+        width: 130px;
+        font-weight: 500;
+        border-radius: 5px;
+        .md-icon {
+            color: white;
+            font-size: 16px !important;
+            font-weight: 100;
+        }
+    }
+    .custom-set {
+        background-color: white;
+        padding: 15px 10px;
+        margin: 15px;
+        &.set {
+            background-color: transparent;
+            padding: 0;
+            margin: 0;
+        }
+        .md-field {
+            margin-bottom: 10px;
+            padding-top: 10px;
+            &:before {
+                height: 0;
+            }
+            &:after {
+                height: 0
+            }
+            .md-custom-input-2 {
+                padding: 20px 13px;
+                color: "#6C6C73";
+                background-color: transparent;
+                border-radius: 3px;
+                width: 80px;
+                max-width: 90px;
+                input {
+                    font-size: 13px;
+                    text-align: center;
+                }
+                &.bold {
+                    font-weight: 600;
+                }
+                &::placeholder {
+                    font-size: 13px;
+                }
+            }
+            .md-custom-input {
+                // border: 1px solid white !important;
+                padding: 20px 13px;
+                color: "#6C6C73";
+                background-color: #f3f3f3;
+                border-radius: 3px;
+                font-size: 13px;
+                &.bold {
+                    font-weight: 600;
+                }
+                &::placeholder {
+                    font-size: 13px;
+                }
+            }
+            .custom-suffix {
+                padding: 8px 5px 8px 14px;
+                background: #f3f3f3;
+            }
+            &.select {
+                .md-custom-input {
+                    padding: 4px 13px;
+                    border: 1px solid #c2c1c0;
+                    background: white;
+                    input {
+                        font-size: 13px;
+                        border-right: 1px solid #c2c1c0;
+                    }
+                     ::placeholder {
+                        font-size: 13px !important;
+                    }
+                    .md-icon {
+                        margin: 3px 0 3px 3px;
+                    }
+                }
+            }
+        }
+    }
+    .table-section {
+        margin: 15px;
+        .md-card {
+            margin: 0;
+            .md-table-toolbar {
+                width: 100%;
+                .pagination-toolbar {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .pager {
+                        display: flex;
+                        align-items: center;
+                        .page-count {
+                            display: flex;
+                            align-items: center;
+                        }
+                        .pagination {
+                            display: flex;
+                            align-items: center;
+                            .md-icon {
+                                cursor: pointer;
+                                margin: 5px;
+                            }
+                        }
+                    }
+                }
+                .action-toolbar {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+            .tags {
+                border-radius: 20px;
+                padding: 5px;
+                font-size: 11px;
+                &.color1 {
+                    border: 1px solid #4C6E8C;
+                    color: #3c6fbb;
+                }
+                &.color2 {
+                    border: 1px solid #D2A195;
+                    color: #D2A195;
+                }
+                &.color3 {
+                    border: 1px solid #BFCFD8;
+                    color: #BFCFD8;
+                }
+                &.color4 {
+                    border: 1px solid #DCBDB9;
+                    color: #DCBDB9;
+                }
+            }
+            .invoiceStatus-tag {
+                &.color1 {
+                    color: #45b454;
+                }
+                &.color2 {
+                    color: #f77c1a;
+                }
+                &.color3 {
+                    color: #fc3434;
+                }
+            }
+            .lease-tag {
+                padding: 5px;
+                border-radius: 4px;
+                color: white;
+                font-size: 11px;
+                &.color1 {
+                    background-color: #4698f5;
+                }
+                &.color2 {
+                    background-color: #fa762a;
+                }
+                &.color3 {
+                    background-color: #f5c938;
+                }
+                &.color4 {
+                    background-color: #56c4f7;
+                }
+                &.color5 {
+                    background-color: #9741fa;
+                }
+            }
+        }
+    }
+    .padding {
+        padding: 0 15px;
+    }
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+    .md-table-content {
+        background-color: white !important;
+        width: 100%;
+        padding: 0;
+    }
+    table {
+        background-color: white !important;
+        border: none;
+    }
+    tbody .md-table-row td {
+        border: none;
+    }
+    th {
+        font-weight: 700;
+    }
+    .md-table.md-card.md-theme-default {
+        padding: 0;
+        overflow: auto;
+    }
+    .red-required {
+        color: red;
+    }
+    .custom-primary {
+        background-color: #0058AB;
+        color: white;
+        padding: 0 0 0 10px;
+        text-transform: initial;
+        .md-icon {
+            color: white !important;
+            font-size: 17px !important;
+        }
+    }
+    .custom-primary-outline {
+        color: #0058AB;
+        border: 1px solid #0058AB;
+        padding: 0 0 0 10px;
+        .md-icon {
+            color: #0058AB !important;
+            font-size: 17px !important;
+        }
+    }
+    .mr-10 {
+        margin-right: 10px !important;
+    }
+    .pr-10 {
+        padding-right: 10px;
+    }
+}

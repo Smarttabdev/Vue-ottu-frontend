@@ -1,0 +1,75 @@
+.dashboard {
+    .container {
+        .height-300 {
+            height: 300px;
+        }
+        .height-200 {
+            height: 200px;
+        }
+        padding: 0 30px;
+        .custom-card {
+            height: 100%;
+            .flex {
+                display: flex;
+                justify-content: space-between;
+            }
+            .action-item {
+                border-bottom: 1px solid #bcbcbc;
+                padding: 0;
+            }
+        }
+        .status-card {
+            // height: 100%;
+            padding: 0 !important;
+            margin: 0;
+        }
+        .date-select {
+            text-align: right;
+            margin-right: 10px;
+            .selected {
+                font-size: 12px;
+                text-transform: none;
+            }
+        }
+        .progress-item {
+            display: flex;
+            justify-content: space-between;
+            .progress-img {
+                height: 40px;
+            }
+        }
+        .md-progress-bar {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            height: 8px;
+            background: #ffdcb0;
+            .md-progress-bar-fill {
+                background: #F77D1A;
+            }
+        }
+        .md-table {
+            padding: 0;
+            margin: 0;
+            .md-table-content {
+                background: #fff !important;
+                padding: 0;
+                width: 100%;
+                .status-tag {
+                    &.color1 {
+                        color: #45b454;
+                    }
+                    &.color2 {
+                        color: #f77c1a;
+                    }
+                    &.color3 {
+                        color: #fc3434;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.action-menu {
+    max-height: inherit;
+}

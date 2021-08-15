@@ -1,0 +1,142 @@
+.reports {
+    .md-tabs {
+        .md-tabs-content {
+            padding: 0;
+            .md-tab {
+                padding: 0;
+                .toolbar-check {
+                    padding: 5px 20px;
+                    // background-image: linear-gradient(#f3aa42a6, #f89f1df0, #fab5529c);
+                    background: #fcdfc4;
+                }
+                .md-card {
+                    margin: 0;
+                    .md-table-toolbar {
+                        width: 100%;
+                        .pagination-toolbar {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .pager {
+                                display: flex;
+                                align-items: center;
+                                .page-count {
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                .pagination {
+                                    display: flex;
+                                    align-items: center;
+                                    .md-icon {
+                                        cursor: pointer;
+                                        margin: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .action-toolbar {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .btn-orange {
+                                color: white;
+                                background-color: #F77D1A;
+                                text-transform: initial;
+                                width: 130px;
+                                font-weight: 500;
+                                border-radius: 5px;
+                                .md-icon {
+                                    color: white;
+                                    font-size: 16px !important;
+                                    font-weight: 100;
+                                }
+                            }
+                        }
+                    }
+                    .md-table-content {
+                        background: #fff !important;
+                        .enable {
+                            background: #0f74ca;
+                            color: #fff;
+                            padding: 3px;
+                            border-radius: 3px;
+                        }
+                        .disable {
+                            background: #ef5541;
+                            color: #fff;
+                            padding: 3px;
+                            border-radius: 3px;
+                        }
+                    }
+                    .tags {
+                        border-radius: 20px;
+                        padding: 5px;
+                        font-size: 11px;
+                        &.color1 {
+                            border: 1px solid #4C6E8C;
+                            color: #4C6E8C;
+                        }
+                        &.color2 {
+                            border: 1px solid #D2A195;
+                            color: #D2A195;
+                        }
+                        &.color3 {
+                            border: 1px solid #BFCFD8;
+                            color: #BFCFD8;
+                        }
+                        &.color4 {
+                            border: 1px solid #DCBDB9;
+                            color: #DCBDB9;
+                        }
+                    }
+                    .invoiceStatus-tag {
+                        &.color1 {
+                            color: #CF4E4A;
+                        }
+                        &.color2 {
+                            color: #0056A6;
+                        }
+                        &.color3 {
+                            color: #4acfa3;
+                        }
+                        &.color4 {
+                            color: #b7cf4a;
+                        }
+                        &.color5 {
+                            color: #674acf;
+                        }
+                    }
+                    .lease-tag {
+                        padding: 5px;
+                        border-radius: 4px;
+                        color: white;
+                        font-size: 11px;
+                        &.color1 {
+                            background-color: #125389;
+                        }
+                        &.color2 {
+                            background-color: #E64241;
+                        }
+                        &.color3 {
+                            background-color: #FFB812;
+                        }
+                        &.color4 {
+                            background-color: #12ffd8;
+                        }
+                        &.color5 {
+                            background-color: #8112ff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.edit {
+    i {
+        padding-left: 0 !important;
+    }
+}

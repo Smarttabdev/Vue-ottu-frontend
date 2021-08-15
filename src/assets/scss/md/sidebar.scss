@@ -1,0 +1,133 @@
+.layout {
+    .md-drawer {
+        height: 100vh;
+        background-color: #242424;
+        .md-toolbar {
+            border-bottom: 1px solid #626262;
+            span {
+                color: #D9D9D9;
+            }
+            .md-icon-button {
+                .md-icon {
+                    color: #D9D9D9;
+                }
+            }
+        }
+        .md-list {
+            background-color: #242424;
+            .md-list-item {
+                &.no-expand {
+                    border-left: 4px solid transparent;
+                }
+                .md-list-item-container.md-button-clean {
+                    &:hover {
+                        background: #1D1D1D !important;
+                    }
+                    transition: none !important;
+                }
+                .link-area {
+                    transform: none;
+                }
+                .md-list-item-text {
+                    color: #D9D9D9;
+                }
+                .md-icon {
+                    color: #D9D9D9;
+                    font-size: 17px !important;
+                }
+                .md-list-item-label {
+                    color: #626262;
+                }
+                .link-area {
+                    padding: 0 96px 0 16px;
+                }
+                a {
+                    span {
+                        font-size: 13px;
+                    }
+                    .md-icon {
+                        font-size: 17px !important;
+                    }
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+                .md-list-item-content {
+                    padding-left: 0 !important;
+                }
+                .md-list-item-expand {
+                    .md-list-item-content {
+                        padding-right: 5px;
+                        .dropdown-icon {
+                            margin-right: 0 !important;
+                        }
+                        .md-list-expand-icon {
+                            display: none !important;
+                        }
+                    }
+                    .md-list-expand {
+                        .md-list {
+                            a {
+                                border-left: 4px solid transparent;
+                                &:hover {
+                                    background-color: #1D1D1D;
+                                    border-left: 4px solid #F77D1A;
+                                }
+                                &.router-link-active {
+                                    background-color: #1D1D1D;
+                                    border-left: 4px solid #F77D1A;
+                                }
+                            }
+                            .md-list-item.md-inset {
+                                margin-left: 12px !important;
+                                .md-list-item-content {
+                                    padding-right: 117px;
+                                    color: #D9D9D9;
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .md-list-expand {
+                    padding-left: 0 !important;
+                    .md-list {
+                        padding: 0;
+                    }
+                }
+                &.active {
+                    .md-list-item-content {
+                        .md-icon:first-child {
+                            color: #F77D1A;
+                        }
+                    }
+                }
+                .md-list-item-content {
+                    // padding-left: 15px !important;
+                    // border-left: 4px solid transparent;
+                    &:hover {
+                        .md-icon:first-child {
+                            color: #F77D1A;
+                        }
+                    }
+                }
+            }
+            .md-list-item.md-expand {
+                borer-left: none !important;
+                // padding-left: 20px !important;
+                .md-list-item-expand {
+                    .md-list-item-content {
+                        padding-left: 20px !important;
+                    }
+                }
+            }
+            .md-list-item.no-expand.active {
+                border-left: 4px solid #F77D1A;
+            }
+        }
+    }
+}
+
+.md-app-container {
+    height: 100vh;
+}
